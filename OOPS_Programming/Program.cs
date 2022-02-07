@@ -10,6 +10,7 @@ namespace OOPS_Programming
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to OOPs problems!");
             InventoryManagement inventoryManagement = new InventoryManagement();
             inventoryManagement.ReadData(@"D:\Bridgelabz\Fellowship\VisualStudioProj\C#Progs\OOPS_Programming\Grocery.json");
         }
