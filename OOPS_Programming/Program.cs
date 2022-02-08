@@ -17,7 +17,8 @@ namespace OOPS_Programming
             {
                 Console.WriteLine("\nEnter\n0 for Exit\n" +
                     "1 for UC1-InventoryManagement\n" +
-                    "2 for UC2-InventoryManagementExtended\n");
+                    "2 for UC2-InventoryManagementExtended\n" +
+                    "3 for UC2-StcokManagement\n");
 
                 Console.WriteLine("Enter the option:");
                 int option = Convert.ToInt32(Console.ReadLine());
@@ -40,6 +41,10 @@ namespace OOPS_Programming
                         inventory.WriteData(@"D:\Bridgelabz\Fellowship\VisualStudioProj\C#Progs\OOPs\OOPS_Programming\UC2-InventoryManagementExtended\GroceryItems.json");
                         break;
 
+                    case 3:
+                        UC3_StockManagement.StockManagement stock = new UC3_StockManagement.StockManagement();
+                        stock.ReadData(@"D:\Bridgelabz\Fellowship\VisualStudioProj\C#Progs\OOPs\OOPS_Programming\UC3-StockManagement\Stocks.json");
+                        break;
                 }
 
             }

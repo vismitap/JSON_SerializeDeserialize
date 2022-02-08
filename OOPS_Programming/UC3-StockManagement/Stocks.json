@@ -1,0 +1,17 @@
+[
+    {
+        "Name": "Google",
+        "NoOfShares": 30,
+        "Price": 100
+    },
+    {
+        "Name": "Amazon",
+        "NoOfShares": 25,
+        "Price": 200
+    },
+    {
+        "Name": "Meesho",
+        "NoOfShares": 35,
+        "Price": 500
+    }
+]
