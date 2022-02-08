@@ -50,11 +50,14 @@
     <Compile Include="UC1-InventoryManagementJSON\InventoryManagement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC2-InventoryManagementExtended\InventoryFactory.cs" />
+    <Compile Include="UC2-InventoryManagementExtended\InventoryManagementExtended.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="UC1-InventoryManagementJSON\Grocery.json" />
     <None Include="packages.config" />
+    <None Include="UC2-InventoryManagementExtended\GroceryItems.json" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
