@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "Flipkart",
+        "NoOfShares": 30,
+        "Price": 100,
+        "TransactionDateTime": "12/30/2015 12:00:00 AM"
+    },
+    {
+        "Name": "Lenskart",
+        "NoOfShares": 25,
+        "Price": 200,
+        "TransactionDateTime": "06/15/2019 01:30:00 AM"
+    },
+    {
+        "Name": "LTI",
+        "NoOfShares": 35,
+        "Price": 500,
+        "TransactionDateTime": "09/30/2020 02:40:30 AM"
+    }
+]

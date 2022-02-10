@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "Google",
+        "NoOfShares": 30,
+        "Price": 100,
+        "TransactionDateTime": "12/30/2015 12:00:00 AM"
+    },
+    {
+        "Name": "Amazon",
+        "NoOfShares": 25,
+        "Price": 200,
+        "TransactionDateTime": "07/20/2021 02:00:40 AM"
+    },
+    {
+        "Name": "Meesho",
+        "NoOfShares": 35,
+        "Price": 500,
+        "TransactionDateTime": "09/03/2008 11:56:00 AM"
+    }
+]

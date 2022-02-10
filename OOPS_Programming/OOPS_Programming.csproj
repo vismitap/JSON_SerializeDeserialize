@@ -54,6 +54,8 @@
     <Compile Include="UC2-InventoryManagementExtended\InventoryManagementExtended.cs" />
     <Compile Include="UC3-StockManagement\StockManagement.cs" />
     <Compile Include="UC3-StockManagement\StockModel.cs" />
+    <Compile Include="UC4-CommercialDataProcessing\SharesModel.cs" />
+    <Compile Include="UC4-CommercialDataProcessing\StockAccount.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -61,6 +63,8 @@
     <None Include="packages.config" />
     <None Include="UC2-InventoryManagementExtended\GroceryItems.json" />
     <None Include="UC3-StockManagement\Stocks.json" />
+    <None Include="UC4-CommercialDataProcessing\CompanyShares.json" />
+    <None Include="UC4-CommercialDataProcessing\CustomerShares.json" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
